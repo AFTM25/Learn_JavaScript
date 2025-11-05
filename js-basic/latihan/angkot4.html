@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angkot 3</title>
+  </head>
+  <body>
+    <h1>Updatean jadi Angkot 4</h1>
+    <h2>Menggunakan for if else if</h2>
+    <script>
+      let jmlAngkot = 10;
+      let angkotBeroperasi = 6;
+      let angkotLembur = 8;
+      for (let noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+        if (noAngkot <= angkotBeroperasi) {
+          console.log(`Angkot No. ${noAngkot} beroperasi dengan baik`);
+        } else if (noAngkot === angkotLembur) {
+          console.log(`Angkot No. ${noAngkot} sedang lembur`);
+        } else {
+          console.log(`Angkot No. ${noAngkot} tidak beroperasi dengan baik`);
+        }
+      }
+    </script>
+  </body>
+</html>

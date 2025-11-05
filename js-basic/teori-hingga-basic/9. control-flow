@@ -1,0 +1,16 @@
+Control Flow (alur kendali)
+Di dalam pemrograman ada yang disebut dengan normal flow. Maksudnya gini apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah atau dari kiri ke kanan".
+Jadi gini, contoh kode program : 
+'''js
+	let nama = prompt('Masukkan nama: ');
+	alert('Hello ' + nama);
+'''
+Penjelasannya gini:
+▶ Program akan berhenti atau menunggu user untuk menginputkan nama. 
+▶ Setelah meng-inputkan nama, dia akan menampilkan tulisan berupa popupbox dengan 'Hello xyz'.
+▶ Program tersebut merupakan contoh normal flow, yakni dikerjakan dari atas hingga bawah ⬇
+▶ Nanti ketika buat alur program alur kontrol nya tidak seperti itu ⬇.
+▶ Bisa saja berupa ada statement yang tidak ingin kita eksekusi karena hal tertentu. 
+▶ Untuk mengatasi hal tersebut, menggunakan pengulangan(loop/iteration) dan pengkondisian(percabangan).
+▶ Dari 2 ini lah yang nantinya dapat mengatur dari alur program kita. 
+

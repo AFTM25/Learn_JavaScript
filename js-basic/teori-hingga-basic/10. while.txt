@@ -1,0 +1,50 @@
+Pengulangan : While
+Kenapa perlu menggunakan perulangan? Karena untuk melakukan hal yang sama berulang kali.
+Ada cara untuk mengganti perulangan secara manual, yaitu :
+1. "ctrl + shift + d";
+2. find and replace all;
+Cuman cara ini tidak sefleksibel menggunakan perulangan. Misal kita ingin menampilkan 'hello' sebanyak 1000 kali, tentu tidak mungkin kita menulis console.log('hello'); sebanyak 1000 kali tiap baris. Maka dari itu kita perlu menggunakan perulangan.
+
+Syntax while Js:
+while(kondisi){
+	aksi
+}
+
+Dibacanya : selama kondisi yang di dalam kurung itu bernilai true, maka lakukan aksi yang ada di dalamnya. 
+
+Infinite loop: 
+while(true){
+	console.log('hello');
+}
+
+Bagaimana caranya agar tidak masuk ke infinite loop? 
+Ada dua cara untuk menghentikan nya: 
+1. Dihentikan oleh user
+let ulang = true;
+while(ulang){
+	console.log('Hello');
+	ulang = confirm('lagi?');
+}
+
+Artinya : selama user mengklik tombol 'ok' maka perulangan terus berjalan, ketika mengklik 'cancel' maka perulangan berhenti.
+
+2. Dihentikan oleh program
+nilai awal
+while(kondisi terminasi){ 
+	aksi
+	
+	increment / decrement
+}
+
+contoh : 
+let nilaiAwal = 1;
+while(nilaiAwal <= 5) {
+	console.log('hello');
+	nilaiAwal++;	
+}
+
+Kesimpulan daripada while:
+1. Ada nilai awal;
+2. Ada kondisi terminasi;
+3. increment / decrement;
+

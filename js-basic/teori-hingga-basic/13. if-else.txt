@@ -1,0 +1,19 @@
+Pengkondisian / Percabangan: If 
+Syntax dasar : 
+if(kondisi){
+	aksi // jika kondisi bernilai True
+}
+... // keluar dari blok jika kondisi false
+
+Kondisi bisa berupa operator perbandingan atau pun operator identitas(===) atau operator logika.
+
+Kita bisa tangkap kondisi false tersebut dengan menggunakan else. 
+
+Jadi nya :
+if(kondisi){
+	aksi True
+} else { 
+	aksi False
+}
+
+

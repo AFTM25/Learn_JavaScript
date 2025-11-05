@@ -1,0 +1,32 @@
+Popup Box / dialog box
+-> alert
+-> prompt
+-> confirm
+
+Permasalahan pada alert adalah :
+> Ketika ada tulisan disertai ada centang, ketika itu di centang maka ketika itu juga di refresh tidak akan menampilkan alert lagi. 
+> Cara untuk menampilkan alert laginya adalah dengan membuka tab baru.
+
+Selanjutnya adalah 'prompt' : 
+> Nantinya ada text box nya untuk memasukkan sebuah inputan.
+> Untuk menangkap inputan tersebut, digunakanlah variabel. 
+
+Selanjutnya 'confirm' :
+> Digunakan untuk meminta konfirmasi dari user. 
+> Contohnya jika ingin delete data. 
+> Mengembalikan nilai berupa true or false. 
+  >> True ketika mengklik "ok"
+  >> False ketika mengklik "cancel"
+> Ketika sudah belajar pengkondisian / pengulangan.
+> contoh kode :
+'''
+alert("Selamat Datang...🤗🤗");
+let lagi = true;
+while (lagi === true) {
+    let nama = prompt("Masukkan nama : ");
+    alert("Hello " + nama + ", senang berkenalan denganmu 😊");
+
+    lagi = confirm("Coba lagi?🤨");
+}
+alert("Terima kasih sudah menggunakan program ini...😁😀😀");
+'''

@@ -1,0 +1,9 @@
+Dengan  menggunakan tabel penelusuran, kita dapat dengan mudah menemukan nilai-nilai fungsi matematika tertentu tanpa harus menghitungnya secara langsung. Tabel penelusuran biasanya berisi daftar nilai input dan output yang telah dihitung sebelumnya, sehingga kita hanya perlu mencari nilai yang diinginkan dalam tabel tersebut.
+
+Jika di web browser bisa dengan : 
+>> Ctrl + Shift + I / f5
+>> Ke bagian Sources
+>> Cari file yang diinginkan untuk debugging 
+>> Buka file tersebut
+>> Kemudian klik angka mana saja, nantinya muncul background biru
+>> Klik F5 untuk refresh sekaligus melakukan debugging nya.

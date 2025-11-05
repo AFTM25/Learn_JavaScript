@@ -1,0 +1,11 @@
+Lingkungan Pengembangan / Development Environment
+- Web Browser
+  1. Console (inspect elemen)
+     - Membuat file html
+     Perintah alert()
+     Perintah console.log()
+  
+  2. Menulis di HTML
+     - Menuliskan di sebelum tag penutup body
+     - Menggunakan tag <script> 
+     - Menggunakan atribut src pada tag <script> mengarah ke file luar dari html. 

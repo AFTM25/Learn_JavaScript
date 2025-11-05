@@ -1,0 +1,63 @@
+Operator : simbol yang digunakan untuk melakukan operasi
+1. Aritmatika
+2. Penugasan
+3. Perbandingan
+4. logika
+5. string
+------------- operand binary
+6. kondisional
+------------- operand ternary
+7. typeof
+------------- operand unary
+
+- Operator binary membutuhkan 2 operand
+operand1 operator operand2
+
+- operan unary membutuhkan 1 operand
+
+- operan ternary membutuhkan 3 operand
+
+1. Operator Aritmatika --> +, -, *, /, %, **
+Operator precendence
+- KuKaBaTaKu --> (), *, /, +, -
+
+2. Operator Penugasan --> =, +=, -=, *=, /=, %=, **=
+
+3. Operator Perbandingan --> >, <, >=, <=, ==, !=, ===, !==
+Operator identitas (===) --> membandingkan dua nilai sekaligus tipe data nya. 
+
+4. Operator Logika
+&&, ||, !
+
+Contoh : 
+x = 12
+(x % 2 == 0) // true
+
+x < 10 // false
+
+(x % 2 == 0) && x < 10 // false
+(x % 2 == 0) || x < 10 // true
+!(x % 2 == 0) // true
+
+5. Operator String (+)
+Kasus nya gini : 
+- Jika pertambahan  itu dilakukan dengan sesama number maka hasilnya adalah number. 
+contoh : 10 + 11 // 21
+- Bagaimana jika menjumlahkan string dengan angka atau sebaliknya? 
+  - Jika operand nya berupa angka diikuti dengan angka string, maka operand number tsb dijumlahkan hasilnya lalu penggabungan dengan string.
+    - Contohnya : 10 + 10 + '10' // '2010'
+  - Jika operand nya berupa string diikuti dengan angka number maka hasilnya adalah berupa string.
+    - Contohnya : '10' + 10 + 10 // '101010'
+
+6. Operator typeof --> untuk mengetahui tipe data dari sebuah nilai atau variabel.
+Contoh : typeof(12) // number 
+atau bisa juga : typeof 'halo' // string
+
+7. Operator kondisional
+(kondisi) ? true : false
+
+contoh : 
+x = 12
+(x % 2 == 0) ? 'genap' : 'ganjil' // 'genap'
+
+Seperti pengkondisian dalam satu baris. 

@@ -1,0 +1,22 @@
+Pengkondisian : Else If
+Pada contoh kode program berikut : 
+
+let inputAngka = prompt('Masukkan Angka :');
+if(inputAngka % 2 === 0){
+	alert(inputAngka + ' adalah bilangan Genap');
+} else {
+	alert(inputAngka + ' adalah bilangan Ganjil');
+}
+
+Permasalahan nya di atas adalah ketika user menginputkan string maka aksi yang akan dilakukan adalah di dalam blok else. Jadi program ini kurang efisien. 
+Agar lebih efisien, kode program nya seperti berikut : 
+
+let inputAngka = prompt('Masukkan Angka :');
+if(inputAngka % 2 === 0){
+	alert(inputAngka + ' adalah bilangan Genap');
+} else if(inputAngka % 2 === 1){
+	alert(inputAngka + ' adalah bilangan Ganjil');
+} else {
+	alert('Yang anda masukkan adalah bukan angka');
+}
+

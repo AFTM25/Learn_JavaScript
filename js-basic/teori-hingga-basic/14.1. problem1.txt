@@ -1,0 +1,18 @@
+<script>
+  let jmlAngkot = 10;
+	let angkotBeroperasi = 6;
+	for (let noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++) {
+		if (noAngkot <= angkotBeroperasi) {
+			console.log(`Angkot No. ${noAngkot} beroperasi dengan baik`);
+		} else if (noAngkot === 5 || noAngkot === 8 || noAngkot === 10) {
+        console.log(`Angkot No. ${noAngkot} sedang lembur`);
+    } else {
+        console.log(`Angkot No. ${noAngkot} tidak beroperasi dengan baik`);
+    }
+  }
+</script>
+	
+Permasalahan nya adalah bagaimana jika angkot no 5 juga sedang lembur? 
+Solusinya adalah menggunakan tabel penelusuran dari awal. 
+Ketika angka 5 <= angkotBeroperasi dia akan True, biar jadi False maka tambahkan kode :
+	if(noAngkot <= angkotBeroperasi && noAngkot !== 5)

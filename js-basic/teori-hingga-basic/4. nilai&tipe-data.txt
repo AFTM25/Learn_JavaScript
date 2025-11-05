@@ -1,0 +1,10 @@
+Nilai & Tipe Data
+Intro : 
+Dalam komputer kita yang gunakan sebenarnya ada data. Dari data ini lah kita bisa mengubah, menghapusnya. Data ini bentuknya berupa bit. Bit/binary digit, adalah satuan terkecil dari data yang ada di dalam komputer kita. Nilainya hanya 0 dan 1. 
+
+- Nilai(value) adalah data yang disimpan pada variabel.
+- Tipe data(data type) adalah kategori dari nilai yang digunakan, tergantung JS menyimpan nya seperti apa.
+- Mengapa ini penting? Karena  dengan pemahaman mengenai nilai dan tipe data, kita bisa menulis kode yang benar, menghindari bug, dan mengerti bagaimana si JS melihat data yang kita gunakan. 
+
+Tipe Data pada JS : 
+number, string, boolean, object, function, undefined

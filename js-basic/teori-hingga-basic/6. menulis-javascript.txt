@@ -1,0 +1,5 @@
+Menulis Javascript
+1. Menggunakan tag <script> di html
+   - internal, bisa di setelah tag title atau sebelum penutup tag body.
+   - external (file terpisah)
+     <script src="path/folder/file.js"></script>

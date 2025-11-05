@@ -1,0 +1,25 @@
+Untuk sintaks nya : 
+switch(kondisi){
+  case nilai1:
+    // blok kode yang dijalankan jika kondisi == nilai1
+    break;
+  case nilai2:
+    // blok kode yang dijalankan jika kondisi == nilai2
+    break;
+  case nilai3:
+    // blok kode yang dijalankan jika kondisi == nilai3
+    break;
+  default:
+    // blok kode yang dijalankan jika semua kondisi tidak ada yang sesuai
+}
+
+>> Note : 
+>>> Untuk case sendiri hanya bisa satu nilai, tidak bisa seperti kondisi semisal case a <= 10;
+>>> Perhatikan nilai dari case nya, jika ada inputan dari user itu berupa string kalau menggunakan prompt ketika pada case nya adalah integer. Untuk penanganan ini menggunakan parseInt(prompt(...));
+>>> Jika break dihapus, maka aksi yang didapat adalah fall through, yaitu semua case setelah case yang sesuai akan dijalankan juga sampai menemukan break atau akhir dari switch.
+>>> Menggunakan operator identitas (===) bukan operator perbandingan(==);
+>>> Khusus untuk nilai tetap bukan untuk perbandingan(<, >, <=, >=, !, !=);
+
+Bedah arti dari bersyarat dan bercabang 
+>> Kalau bersyarat itu artinya ada kondisi yang harus dipenuhi, kalau terpenuhi maka aksi akan dijalankan.
+>> Kalau bercabang itu artinya ada beberapa kemungkinan kondisi yang bisa terjadi, dan setiap kondisi memiliki aksi yang berbeda.

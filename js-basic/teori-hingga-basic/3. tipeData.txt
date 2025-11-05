@@ -1,0 +1,58 @@
+---------- Angka ----------
+Pada js tidak terdapat integer, melainkan number. Kenapa begitu? 
+- Angka tanpa desimal
+  - 10, 1500, 12345
+  - Tingkat akurat 15 digit, jika lebih maka dibulatkan
+
+- Angka dengan desimal
+  - 3.14
+
+- Eksponen
+  - 123e5 // 12300000
+  - 123e-5 // 0.00123
+
+- Bilangan negatif
+
+Warning!
+- Jika menambahkan 0 di depan angka, js akan konversi nya ke oktal. Contoh jika menuliskan nya di console 022 maka hasilnya adalah 18, karena si js menganggap nya sebagai oktal.
+- Mengawali angka dengan 0xff akan dianggap sebagai bilangan hexadesimal.
+
+Di dalam js ada angka spesial : 
+- infinity
+- (-infinity)
+- Nan(not a number)
+Maksudnya gimana?
+> Jika kita membagi bilangan positif dengan nol, maka hasilnya infinity.
+  Contoh : 
+  2 / 0 --> infinity
+
+> Jika kita membagi bilangan negatif dengan nol, maka hasilnya -infinity (dibaca : minus infinity)
+  Contoh : 
+  -21 / 0 --> -infinity
+
+> Jika kita membagi kedua angka 0, maka hasilnya Nan. 
+  Contoh : 
+  0 / 0 --> NaN
+  'apel' / 9 / 0 --> NaN
+
+>> Dengan ini perlu diperhatikan ketika membagi 100 dengan "100" (string), maka akan mengembalikan hasilnya. 
+  	
+
+---------- Tipe Data String ----------
+Permasalahan dengan string : 
+Solusi nya pake escape string \' atau \"
+
+\u = untuk unicode
+Concatenate
+fungsi .length untuk menghitung kata pada string termasuk spasi dihitung
+
+---------- Tipe Data Boolean ---------
+Untuk merepresentasikan logika true atau false.
+Biasanya digunakan pada statement pengkondisian, untuk menentukan aksi yang berbeda dan mengatur alur kendali. 
+Nilai nya true | false. 
+fungsi Boolean(nilai), cth Boolean(10 < 20).
+Istilah truthy | falsy : 
+truthy artinya jika dimasukkan itu berupa true, non-zero number, "String", object, arratys, functions. 
+falsy berupa false, 0, "", undefined, null, NaN
+
+

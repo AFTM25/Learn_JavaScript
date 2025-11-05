@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control Flow(intro)</title>
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        height: 100%;
+      }
+
+      body {
+        min-height: 100vh;
+        background-color: #bcfaff;
+        font-family: Monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        text-align: center;
+        color: red;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Belajar Memahami Control Flow</h1>
+    <script>
+      // Control Flow : Perulangan
+      alert("Start");
+      for (let i = 1; i < 5; i++) {
+        alert("Perulangan ke " + i);
+      }
+      alert("Finish");
+
+      // Control flow : pengkondisian
+      let inputAngka = prompt("Masukkan angka : ");
+      if (inputAngka % 2 === 0) {
+        alert("Bilangan berupa 'Genap'");
+      } else {
+        alert("Bilangan berupa 'Ganjil'");
+      }
+    </script>
+  </body>
+</html>

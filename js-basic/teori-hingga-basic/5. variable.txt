@@ -1,0 +1,26 @@
+Variable
+--> tempat/wadah untuk menyimpan nilai.
+
+Memahami deklarasi, inisialisasi, assignment
+Deklarasi -> mendaftarkan variabel ke dalam lingkup yang sesuai
+Inisialisasi -> menyediakan memori untuk variabel
+Assignment -> menetapkan nilai
+Contoh : 
+var x; // deklarasi & inisialisasi
+x = 20; // assignment
+
+Deklarasi variabel : var, let, const
+
+Shorthand variabel:
+Dari ini : 
+var nama = "lll";
+var usia = 12;
+var lulus = true;
+
+Menjadi : 
+var nama = 'lll' ,
+    usia = 12, 
+    lulus = true;
+
+Di dalam variabel ada variable scope! setelah belajar function function dan object
+

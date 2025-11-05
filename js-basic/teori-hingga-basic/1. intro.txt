@@ -1,0 +1,158 @@
+----- Pengantar WPU Javascript 1 -----
+Memahami istilah  :
+1. Program
+2. Pemrograman
+3. Bahasa Pemrograman
+
+Manfaat dari belajar pemrograman :
+1. Berlatih teliti, disiplin, berpikir abstraksi
+2. Mengubah komputer menjadi alat yang powerfull
+3. Membantu pola pikir komputasional
+
+--- Apa itu pemrograman ---
+1. Program adalah serangkaian instruksi pada komputer. 
+2. Apa itu instruksi untuk komputer? 
+  > Memberi perintah pada komputer 
+  > Melalui bahasa pemrograman 
+  > Memecah tugas jadi instruksi sederhana. Seperti apa instruksi sederhana itu?
+    - Melakukan operasi matematika 
+    - Menampilkan tulisan ke layar
+    - Mengubah ukuran, posisi atau warna pada sebuah pixel.
+
+3. Perilaku komputer : 
+  - Komputer tidak begitu pintar
+  - Tapi dia penurut (akan melakukan instruksi apa pun yang kita berikan meski salah)
+  - Komputer tidak kenal lelah 
+  "Berikanlah instruksi yang benar"
+  Instruksi yang kita berikan pada komputer disebut statement. 
+
+Ringkasan : 
+Apa itu pemrograman?
+- Cara kita memberikan instruksi yang simpel dan terstruktur pada komputer 
+- Instruksi yang diberikan haruslah benar dan masuk akal 
+- Instruksi harus sesuai dengan aturan pada bahasa pemrograman tertentu.  
+
+
+--- Apa itu bahasa pemrograman? ---
+Kenapa banyak bahasa pemrograman? 
+- Awal komputer menggunakan bahasa mesin yakni binary. 
+- Sulit dipahami manusia 
+- Dibuatlah bahasa pemrograman tingkat tinggi yang lebih mudah dipahami manusia.
+
+Pembahasan mengenai source code : 
+1. Bagaimana menulis source code? 
+  - Menggunakan plain text atau teks editor. 
+  - Hal ini berbeda dengan software pengolah kata (word processor) seperti microsoft word.
+  Masalah : Apakah kita harus menghapalkan blok kode program atau sintaks? 
+  : Jika ya, ketika menggunakan notepad 
+  : Tidak, karena ada software yang bisa membantu untuk menuliskan sintaks seperti kode editor. 
+
+2. Bagaimana source code diterjemahkan jadi machine code? 
+  - Compiler    : 
+    - Merupakan  program yang menterjemahkan dari source code ke machine code sekaligus, sebelum dijalankan. 
+    - Proses (melalui 6 tahap) : 
+      1. Lexical Analysis = memecah kode jadi token(variabel, keyword, simbol)
+      2. Syntax Analysis = memastikan struktur kode valid (pakai aturan grammar bahasa itu)
+      3. Semantic Analysis = memastikan makna nya logis (misal:ga bisa jumlahin string sama integer) 
+      4. Optimization = mempercepat eksekusi tanpa merubah hasil
+      5. Code Generation = ubah jadi assembly/machine code
+      6. Code Linking = gabung semua file yang dibutuhkan jadi file execurtable(.exe, .out, dll)
+    - Gambaran proses compiler : 
+      script.c  --> Compiler -->  program.exe --> run
+
+  - Interpreter : 
+    - Merupakan program yang menterjemahkan source code baris per baris saat program dijalankan, tanpa mengubah dulu ke file executable.
+    -Proses : 
+      - Baca 1 baris 
+      - Ubah ke instruksi mesin 
+      - Jalankan
+      - Lanjut ke baris berikutnya sampai selesai 
+    - Gambaran proses interpreter :
+      script.py --> Interpreter --> run
+
+  - Perbedaan compiler dan interpreter
+    - Compiler : 
+      - Kelebihan : 
+        - Siap untuk dijalankan 
+        - Lebih cepat 
+        - Sorce code tidak terlihat 
+      - Kekurangan :
+        - Tidak lintas platform
+        - tidak fleksibel
+        - langkah tambahan 
+    
+    -Interpreter : 
+      - Kelebihan : 
+        - Lintas platform
+        - Fleksibel
+        - Mudah untuk diuji 
+      
+      - Kekurangan :
+        - Perlu interpreter terinstall
+        - Lebih lambat
+        - Source code terlihat dan mudah diakses
+
+  - Hybrid (gabungan compiler interpreter)
+    - Intermediete Language (IL)
+    - JIT compilation (Just-In-Time)
+      - Menggabungkan kelebihan compiler dan interpreter
+      - Melakukan kompilasi saat program dijalankan
+      - Meningkatkan performa eksekusi program
+
+3. Bahasa Pemrograman 
+  Kenapa Belajar JavaScript? 
+    Karena JavaScript adalah  bahasa utama web  yang paling mudah diakses. Gratis,
+    tidak butuh instalasi tambahan, cukup gunakan web browser—karena setiap browser 
+    sudah memiliki *JavaScript engine* di dalamnya.
+    Machine Engine pada Javascript : 
+    - V8 (Google Chrome, Edge)
+    - SpiderMonkey (Mozilla Firefox)
+    - JavaScriptCore (Safari)
+
+
+Menurut Wikipedia,  “JavaScript is a high-level, scripting, untyped, and interpreted programming language.” 
+Artinya:
+
+*   High-level   → mudah dipahami manusia, tidak perlu berurusan langsung dengan memori.
+*   Scripting   → digunakan untuk mengatur logika dan interaksi pada aplikasi, bukan membuat sistem operasi.
+*   Untyped   → fleksibel dalam penggunaan tipe data (angka bisa jadi string, dan sebaliknya).
+*   Interpreted   → dijalankan langsung oleh browser tanpa perlu proses kompilasi.
+
+---
+
+💡Kemampuan JavaScript dan Pengertiannya  
+
+1.   Client-side Web Development  
+   JavaScript digunakan untuk membuat tampilan web menjadi interaktif.
+
+     *Vanilla JavaScript* → versi murni tanpa framework.
+     *jQuery* → menyederhanakan manipulasi elemen HTML dan efek animasi.
+     *React, Angular, Vue* → framework modern untuk membuat aplikasi web dinamis berbasis  component .
+
+2.   Server-side Development  
+   Dengan   Node.js  , JavaScript dapat berjalan di sisi server.
+
+     *Node.js* → memungkinkan JavaScript menangani permintaan web seperti PHP.
+   * *Express.js* → framework Node.js untuk membangun API dan server dengan struktur rapi dan efisien.
+
+3.   Browser Extension / Add-on  
+   JavaScript bisa digunakan untuk membuat ekstensi di browser seperti Chrome dan Firefox, menambah fungsi baru pada web.
+
+4.   Desktop Applications  
+   Dengan *Electron* atau *AppJS*, JavaScript dapat membuat aplikasi desktop lintas platform (Windows, macOS, Linux).
+   → Contoh: Visual Studio Code dan Discord dibangun dengan Electron.
+
+5.   Mobile App Development  
+   Menggunakan *Cordova*, *PhoneGap*, atau *React Native*, JavaScript bisa membuat aplikasi mobile yang berjalan di Android dan iOS.
+
+6.   IoT & Robotics  
+   Dengan library seperti *Johnny-Five* atau *CylonJS*, JavaScript mampu mengontrol perangkat keras seperti sensor dan robot.
+
+7.   JSON (JavaScript Object Notation)  
+   Format data ringan yang berasal dari JavaScript. JSON menjadi standar pertukaran data antara server dan aplikasi.
+
+---
+
+📌   Kesimpulan:  
+JavaScript bukan sekadar bahasa untuk web, tapi ekosistem lengkap yang bisa berjalan di mana saja: browser, server, desktop, mobile, hingga robotik.
+Satu bahasa — sejuta kemungkinan.

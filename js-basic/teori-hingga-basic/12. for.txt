@@ -1,0 +1,7 @@
+Pengulangan : For
+1. Membedakan perulangan while vs for
+
+Keyword : 
+for(penentuan nilai awal ; kondisi terminasi ; increment/decrement) {
+	aksi / statement
+}
